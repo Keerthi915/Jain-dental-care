@@ -21,6 +21,12 @@ const testimonials = [
     name: 'Ankit Mehta',
     text: 'Well maintained clinic with superior quality treatment and safety protocol. Highly recommended for individual who wants to get root canal treatment. Dr Dilip is passionated dental practitioner updating himself with latest dental advancement and doing best in favour of his patients.',
     rating: 5
+  },
+  {
+    id: 4,
+    name: 'Laxman uppal',
+    text: 'Great work environment with safety and neat on top priority and the treatment by Dr. Dilip is really great who explains you your problem and treatment clearly by answering all your questions before the treatment that too in an affordable price compared to other dental ciinics',
+    rating: 5
   }
 ];
 
@@ -57,7 +63,7 @@ const TestimonialSlider = () => {
           <button className="slider-btn prev-btn" onClick={prevTestimonial} aria-label="Previous Testimonial">
             <ChevronLeft size={24} />
           </button>
-          
+
           <div className="testimonial-content-wrapper">
             <AnimatePresence mode="wait">
               <motion.div
@@ -71,13 +77,13 @@ const TestimonialSlider = () => {
                 <div className="quote-icon">
                   <Quote size={40} />
                 </div>
-                
+
                 <div className="stars-container">
                   {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
                     <Star key={i} size={20} fill="#FBBF24" color="#FBBF24" />
                   ))}
                 </div>
-                
+
                 <p className="testimonial-text">"{testimonials[currentIndex].text}"</p>
                 <h4 className="testimonial-author">- {testimonials[currentIndex].name}</h4>
               </motion.div>
