@@ -6,20 +6,20 @@ import './TestimonialSlider.css';
 const testimonials = [
   {
     id: 1,
-    name: 'Suresh Kumar',
-    text: 'Dr. Ajay Kumar is exceptional. I went in for a root canal and was terrified, but it was completely painless. The clinic is incredibly clean and modern.',
+    name: 'Vishal Parekar',
+    text: 'Wonderful place and excellent Doctor. Anybody at my home gets problem, we rush to Jain Dental Care. Dr Dilip is very kind and explains the condition patiently. His approach towards the problem is marvelous. He takes so much time to do the work precisely and correctly.',
     rating: 5
   },
   {
     id: 2,
-    name: 'Anjali Desai',
-    text: 'Best dental clinic in Narayanguda! They explained the whole teeth alignment process clearly and the staff is very polite. Highly recommend.',
+    name: 'Bhavani Yedugani',
+    text: 'The doctors are superb here. I was treated by Dr. Dilip Jain, very professional. His explanation to every detail is extremely helpful to take decision. Unlike other dental clinics, this clinic is very less cost and they don\'t charge unnecessarily. Highly recommended.',
     rating: 5
   },
   {
     id: 3,
-    name: 'Rahul Varma',
-    text: 'Got my dental implants done here. Very professional environment and excellent after-care support. The pricing is also very transparent.',
+    name: 'Ankit Mehta',
+    text: 'Well maintained clinic with superior quality treatment and safety protocol. Highly recommended for individual who wants to get root canal treatment. Dr Dilip is passionated dental practitioner updating himself with latest dental advancement and doing best in favour of his patients.',
     rating: 5
   }
 ];
